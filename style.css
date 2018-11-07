@@ -90,7 +90,7 @@ strong {
   margin: 0 auto;
   padding: 48pt;
   background-color: rgba(255,255,255,1);
-  box-shadow: 0pt 2pt 6pt rgba(0,0,0,0.1);
+  box-shadow: 0pt 20pt 72pt rgba(0,0,0,0.2);
   /*border-radius: 5px;*/
 }
 .table-texte {
