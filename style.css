@@ -1,7 +1,7 @@
 
 html{
   /*background: linear-gradient(3deg, #fdbc14, #ffdba8, #adb7ea, #387197, #1f0026);*/
-  background: rgba(0,0,0,.1);
+  background: rgba(0,0,0,0);
   /*background-color: rgba(0,0,0,.1);*/
   font-family: Arial;
   color: rgba(0,0,0,1);
