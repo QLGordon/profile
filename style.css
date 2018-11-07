@@ -10,17 +10,17 @@ header, footer {
   text-align: center;
 }
 h1, h2 {
-  letter-spacing: 0.1em;
+  /*letter-spacing: 0.1em;*/
   color: #F9263F;
 }
 h1 {
-  font-size: 2em;
+  font-size: 1em;
   color: #37EDB7;
   text-align: center;
 
 }
 h6 {
-  letter-spacing: 0.1em;
+  /*letter-spacing: 0.1em;*/
   font-size: 0.5em;
   font-weight: 100;
   /*color: #FFED00;*/
@@ -38,7 +38,8 @@ a:hover {
   color: #0028CE;
 }
 ul {
-  padding: 0;
+  padding: 0.5em 0;
+  font-size: 0.8em;
 }
 ul>li {
   display: inline-block;
@@ -49,15 +50,15 @@ td {
   line-height: 1.5em;
   vertical-align: top;
   font-size: 0.8em;
-  text-align: justify;
+  /*text-align: justify*/;
 }
 td>img {
   padding: 0 1vw 1vw;
   width: 200px;
-  height: 200px;
+  height: 300px;
 }
 strong {
-  letter-spacing: 0.1em;
+  /*letter-spacing: 0.1em;*/
   color: #37EDB7;
 }
 
