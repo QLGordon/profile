@@ -1,21 +1,25 @@
 
 html{
   /*background: linear-gradient(3deg, #fdbc14, #ffdba8, #adb7ea, #387197, #1f0026);*/
-  background: rgba(0,0,0,.9);
+  background: rgba(0,0,0,.1);
   /*background-color: rgba(0,0,0,.1);*/
-  font-family: Monaco;
-  color: rgba(255,255,255,1);
+  font-family: Arial;
+  color: rgba(0,0,0,1);
+}
+body {
+  margin: 0;
 }
 header, footer {
   text-align: center;
+  margin: 0;
 }
 h1, h2 {
   /*letter-spacing: 0.1em;*/
-  color: #F9263F;
+  color: rgba(0,0,0,1);
 }
 h1 {
   font-size: 1em;
-  color: #37EDB7;
+  color: rgba(0,0,0,1);
   text-align: center;
 
 }
@@ -24,18 +28,18 @@ h6 {
   font-size: 0.5em;
   font-weight: 100;
   /*color: #FFED00;*/
-  color: #008AC9;
+  color: rgba(0,0,0,1);
 }
 p {
   font-size: 0.8em;
 }
 a {
-  color: #FFED00;
+  color: rgba(0,0,0,1);
   text-decoration: none;
   transition: color .2s ease-in-out;
 }
 a:hover {
-  color: #0028CE;
+  color: rgba(0,0,0,1);
 }
 ul {
   padding: 0.5em 0;
@@ -47,33 +51,45 @@ ul>li {
 }
 td {
   /*padding: 3pt;*/
+  padding: 0;
   line-height: 1.5em;
   vertical-align: top;
   font-size: 0.8em;
   /*text-align: justify*/;
 }
 td>img {
-  padding: 0 1vw 1vw;
+  /*padding: 0;*/
   width: 200px;
   height: 300px;
+  object-fit: cover;
 }
 strong {
   /*letter-spacing: 0.1em;*/
-  color: #37EDB7;
+  color: rgba(0,0,0,1);
 }
 
 #avatar {
   width: 144pt;
   border-radius: 50%;
   border: 6pt solid rgba(255,255,255,.20);
+  transition: filter .2s ease-in-out;
 /*  border: 10px solid rgba(255,255,255,1);*/
   box-shadow: 0pt 9pt 24pt rgba(0,0,0,0.1);
+  filter: blur(72pt);
+}
+#avatar:hover {
+  width: 144pt;
+  border-radius: 50%;
+  border: 6pt solid rgba(255,255,255,.20);
+/*  border: 10px solid rgba(255,255,255,1);*/
+  box-shadow: 0pt 9pt 24pt rgba(0,0,0,0.1);
+  filter: blur(0px);
 }
 .container {
   width: 700px;
-  margin: 6pt auto;
-  padding: 12pt;
-  background-color: rgba(0,0,0,1);
+  margin: 0 auto;
+  padding: 48pt;
+  background-color: rgba(255,255,255,1);
   box-shadow: 0pt 2pt 6pt rgba(0,0,0,0.1);
   /*border-radius: 5px;*/
 }
@@ -85,7 +101,7 @@ strong {
   /* For a screen < 960px, this CSS will be read */
   .container {
     width: 700px;
-    padding: 12pt 24pt;
+    padding: 24pt 24pt;
     margin: 50pt auto;
   }
 }
