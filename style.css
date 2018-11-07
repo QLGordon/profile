@@ -1,0 +1,122 @@
+
+html{
+  /*background: linear-gradient(3deg, #fdbc14, #ffdba8, #adb7ea, #387197, #1f0026);*/
+  background: rgba(0,0,0,.9);
+  /*background-color: rgba(0,0,0,.1);*/
+  font-family: Monaco;
+  color: rgba(255,255,255,1);
+}
+header, footer {
+  text-align: center;
+}
+h1, h2 {
+  letter-spacing: 0.1em;
+  color: #F9263F;
+}
+h1 {
+  font-size: 2em;
+  color: #37EDB7;
+  text-align: center;
+
+}
+h6 {
+  letter-spacing: 0.1em;
+  font-size: 0.5em;
+  font-weight: 100;
+  /*color: #FFED00;*/
+  color: #008AC9;
+}
+p {
+  font-size: 0.8em;
+}
+a {
+  color: #FFED00;
+  text-decoration: none;
+  transition: color .2s ease-in-out;
+}
+a:hover {
+  color: #0028CE;
+}
+ul {
+  padding: 0;
+}
+ul>li {
+  display: inline-block;
+  padding: 10px 10px;
+}
+td {
+  /*padding: 3pt;*/
+  line-height: 1.5em;
+  vertical-align: top;
+  font-size: 0.8em;
+  text-align: justify;
+}
+td>img {
+  padding: 0 1vw 1vw;
+  width: 200px;
+  height: 200px;
+}
+strong {
+  letter-spacing: 0.1em;
+  color: #37EDB7;
+}
+
+#avatar {
+  width: 144pt;
+  border-radius: 50%;
+  border: 6pt solid rgba(255,255,255,.20);
+/*  border: 10px solid rgba(255,255,255,1);*/
+  box-shadow: 0pt 9pt 24pt rgba(0,0,0,0.1);
+}
+.container {
+  width: 700px;
+  margin: 6pt auto;
+  padding: 12pt;
+  background-color: rgba(0,0,0,1);
+  box-shadow: 0pt 2pt 6pt rgba(0,0,0,0.1);
+  /*border-radius: 5px;*/
+}
+.table-texte {
+  padding: 0 12pt;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    padding: 12pt 24pt;
+    margin: 50pt auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    padding: 6pt 12pt;
+    margin: 50pt auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    padding: 9pt 12pt;
+    margin: 10pt auto;
+  }
+
+  td {
+  /*padding: 3pt;*/
+  display: block;
+  line-height: 1.5em;
+  vertical-align: top;
+  font-size: 0.8em;
+  text-align: center;
+  }
+
+  th {
+    display: none;
+  }
+}
+
+}
